@@ -1,0 +1,63 @@
+.navbar{
+  background-image: linear-gradient(to top, slategrey, black);
+
+}
+.logo{
+  text-size-adjust: 100%;
+}
+
+.home {
+  position: relative; 
+  text-align: center; 
+  
+}
+.home-heading{
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  
+}
+  .hero img {
+  width: 100%;
+  height: 850px;
+}
+
+.contact-info{
+  color: white;
+
+}
+.overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#9FA7DF; 
+}
+.content {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.container{
+  display: grid;
+  grid-template: 30% 30% 30%;
+  grid-gap:1em ;
+
+}
+
+.card{
+  background-color:lightgrey;
+}
+.contact-title{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.footer{
+  
+    text-align: center;
+    padding: 3px;
+    
+  
+}
